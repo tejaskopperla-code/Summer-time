@@ -1,6 +1,8 @@
-month =input("enter the month .")
+temperature = int(input("Enter the temperature: "))
 
-if month =="june" or month == "july" or month == "Agust":
-    print("summer time (in poland)")
+if temperature < 5:
+    print("Wear a jacket")
+elif temperature <= 20:
+    print("Wear warm clothes")
 else:
-    print("not summer time(in poland)")
+    print("Wear light clothes")
